@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     </script>
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
 
     <title>{{env('APP_NAME')}}</title>
 </head>
@@ -15,6 +15,6 @@
         <app></app>
     </div>
 
-    <script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
